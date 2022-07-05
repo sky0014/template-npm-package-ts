@@ -19,8 +19,7 @@
   },
   "homepage": "${GITHUB}/#readme",
   "devDependencies": {
-    "@rollup/plugin-typescript": "^8.3.2",
-    "@types/react": "^18.0.5",
+    "@rollup/plugin-typescript": "^8.3.2",    
     "rimraf": "^3.0.2",
     "rollup": "^2.70.2",
     "rollup-plugin-dts": "^4.2.1",
