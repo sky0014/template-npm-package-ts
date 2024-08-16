@@ -4,6 +4,9 @@
   "description": "${PROJECT_DESCRIPTION}",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "build": "rimraf lib && rollup -c",
     "pub": "npm run build && npm publish --registry=https://registry.npmjs.org --access public"
